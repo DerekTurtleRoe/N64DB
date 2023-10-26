@@ -19,7 +19,7 @@ Bad dumps sometimes do still work, but can have any number of issues, including 
 - Nintendo 64 disk drive
 - iQue
 - Aleck64
-- Virtual Console extracted Nintendo 64 ROMs
+- Nintendo 64 software extracted from various other sources (Virtual Console, Switch Online, rereleases and ports, etc.)
 
 #### How is this database generated?
 
@@ -27,7 +27,7 @@ Using a few free and open-source tools made by the community, and a LOT of hand-
 
 The first is [ROM64 by Mike Roach](https://github.com/mroach/rom64). This is a Nintendo 64 ROM information tool. This provides some of the data used in the database.
 
-The other tool is [romjudge by Jason Benaim](https://github.com/jkbenaim/romjudge). This is also a Nintendo 64 ROM information tool. This provides some of the data, including checking for typical PI (peripheral interface) timings, checking for a correct file size, checking the CRCs, and checking the IPL3/bootcode.
+The other tool is [romjudge by Jason Benaim](https://github.com/jkbenaim/romjudge). This is also a Nintendo 64 ROM information tool. This provides some of the data, including checking for typical PI (peripheral interface) timings, checking for a correct file size, checking the checksum, and checking the IPL/bootcode.
 
 The rest is manually done by me, such as gathering the information about Expansion Pak requirements, number of players, save types, developer and publisher information, and other data.
 
